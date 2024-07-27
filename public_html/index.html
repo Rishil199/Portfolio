@@ -17,8 +17,8 @@
         <div class="container">
             <ul class="social-icons pt-3">
                 <!-- <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li> -->
-                <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/rishil-kadlak-45441a18b/"><i class="ti-twitter" aria-hidden="true"></i></a></li>
                 <!-- <li class="social-item"><a class="social-link text-light" href="https://mail.google.com/mail/u/0/#inbox"><i class="ti-google" aria-hidden="true"></i></a></li> -->
+                <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/rishil-kadlak-45441a18b/"><i class="ti-twitter" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/rishil-kadlak-45441a18b/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" href="https://github.com/Rishil199"><i class="ti-github" aria-hidden="true"></i></a></li>
@@ -26,7 +26,11 @@
             <div class="header-content">
                 <!-- <h4 class="header-subtitle" >Hello, I am</h4> -->
                 <h1 class="header-title">Rishil Kadlak</h1>
-                <h6 class="header-mono" >Web Developer | Backend PHP/Laravel</h6>
+                <h6 class="header-mono">
+                    <span id="position" >
+
+                    </span>
+                </h6>
                 <button class="btn btn-primary btn-rounded" onclick="downloadCV()"><i class="ti-printer pr-2"></i>Print Resume</button>
             </div>
         </div>
@@ -80,7 +84,7 @@
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
-                <span class="line mb-5"></span>
+                <span class="line mb-3"></span>
                 <ul class="mt40 info list-unstyled">
                     <li><span>Birthdate</span> : 19/11/1999</li>
                     <li><span>Email</span> : rishilkadlak2000@gmail.com</li>
@@ -88,13 +92,20 @@
                     <li><span>Skype</span> : Rishil Kadlak </li>
                     <li><span>Address</span> : Shri Ganesh CHS G-9,305, Gharonda Ghansoli Sec-9, Navi Mumbai- 400701 </li>
                 </ul>
+                <hr>
+                <h5 class="font-weight-light">Hobbies</h5>
+                <ul class="t40 info list-unstyled"><br>
+                    <span class="line mb-5"></span>
+                    <li>Playing Sports</li>
+                    <li>Reading books</li>
+                    <li>Travelling</li>
+                </ul>
                 <ul class="social-icons pt-3">
                     <!-- <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li> -->
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                    <!-- <li class="social-item"><a class="social-link" href="#"><i class="ti-google" aria-hidden="true"></i></a></li> -->
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/rishil-kadlak-45441a18b/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link text-danger" href="https://www.linkedin.com/in/rishil-kadlak-45441a18b/"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-danger" href="https://www.instagram.com/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-danger" href="https://www.linkedin.com/in/rishil-kadlak-45441a18b/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-danger" href="https://github.com/Rishil199"><i class="ti-github" aria-hidden="true"></i></a></li>
                 </ul>  
             </div>
             <div class="col-lg-4 about-card">
@@ -306,7 +317,7 @@
 
     <section class="section" id="service">
         <div class="container">
-            <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
+            <h2 class="mb-5 pb-4"><span class="text-danger">Extracurricular Activities </span> and Achievements</h2>
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
@@ -455,7 +466,7 @@
     </section>
     <section class="section bg-dark py-5">
         <div class="container text-center">
-            <h2 class="text-light mb-5 font-weight-normal">I Am Available For Freelancer</h2>
+            <h2 class="text-light mb-5 font-weight-normal position">I Am Available For Work As a <span id="dynamic-text"> </span> </h2>
             <button class="btn bg-primary w-lg" >Hire me</button>
         </div>
     </section>
@@ -686,7 +697,7 @@
                         
                         <p>In the All-Coating project, I focused on inventory management, ensuring seamless deduction of quantities upon order placement and restoration upon deletion, leveraging Laravel for efficient order management.</p>
 
-                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                        <a href="https://allcoating.se/" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
                     </div>
                 </div><!-- end of blog wrapper -->
                 <!-- blog-card -->
@@ -765,11 +776,10 @@
                         </div>
                         <ul class="social-icons pt-4">
                             <!-- <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li> -->
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                            <!-- <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li> -->
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="https://www.linkedin.com/in/rishil-kadlak-45441a18b/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="https://www.linkedin.com/in/rishil-kadlak-45441a18b/"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-dark" href="https://www.instagram.com/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-dark" href="https://www.linkedin.com/in/rishil-kadlak-45441a18b/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-dark" href="https://github.com/Rishil199"><i class="ti-github" aria-hidden="true"></i></a></li>
                         </ul> 
                     </div>
                 </div>
@@ -799,6 +809,7 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
 
     <!--  js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="assets/js/index.js"></script>
 
 </body>

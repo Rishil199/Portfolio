@@ -144,3 +144,27 @@ function initMap() {
   link.download = 'Rishil-resume.pdf' ;
   link.click();
   }
+
+  const PositionElements = document.querySelectorAll('#position');
+  PositionElements.forEach(element => {
+      new Typed(element, {
+          strings: ["Web Developer", "Backend Developer", "Designer"],
+          typeSpeed: 50,
+          backSpeed: 50,
+          backDelay: 2000,
+          startDelay: 1000,
+          loop: true
+      });
+  });
+
+const DynamicElements = document.querySelectorAll("#dynamic-text");
+DynamicElements.forEach(element=>{
+  new Typed(element, {
+    strings: ["Web Developer", "Backend Developer", "Designer"],
+          typeSpeed: 50,
+          backSpeed: 50,
+          backDelay: 2000,
+          startDelay: 1000,
+          loop: true
+  });
+});
