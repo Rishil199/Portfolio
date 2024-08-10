@@ -11683,3 +11683,8 @@ pre .code {
 {
    background-color: royalblue;
 }
+
+.social-img{
+  height: auto;
+  width: 105%;
+}
