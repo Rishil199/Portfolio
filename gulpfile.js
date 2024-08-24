@@ -12,7 +12,6 @@ const autoprefixer  = require('gulp-autoprefixer');
 const jpgRecompress = require('imagemin-jpeg-recompress'); 
 const clean         = require('gulp-clean');
 
-
 // Paths
 var paths = {
     root: { 
@@ -86,13 +85,12 @@ gulp.task('vendors', function(){
 
 // clean dist
 gulp.task('clean', function () {
-    return gulp.src(paths.dist.root)
+    return gulp.src(paths.dist.root, {read: false, allowEmpty: true})
         .pipe(clean());
 });
 
 // Prepare all assets for production
-gulp.task('build', gulp.series('sass', 'css', 'js', 'vendors', 'img'));
-
+gulp.task('build', gulp.series('clean', 'sass', 'css', 'js', 'vendors', 'img'));
 
 // Watch (SASS, CSS, JS, and HTML) reload browser on change
 gulp.task('watch', function() {
