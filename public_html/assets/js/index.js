@@ -140,8 +140,8 @@ function initMap() {
   function downloadCV() {
     // alert("hello");
   const link = document.createElement('a');
-  link.href= "assets/imgs/Rishil.pdf";
-  link.download = 'Rishil-resume.pdf' ;
+  link.href= "assets/imgs/RISHIL-RESUME (5).pdf";
+  link.download = 'Rishil-Resume.pdf' ;
   link.click();
   }
 
