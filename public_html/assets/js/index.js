@@ -140,7 +140,7 @@ function initMap() {
   function downloadCV() {
     // alert("hello");
   const link = document.createElement('a');
-  link.href= "assets/imgs/RISHIL-RESUME (5).pdf";
+  link.href= "assets/imgs/Rishil Resume.pdf";
   link.download = 'Rishil-Resume.pdf' ;
   link.click();
   }
@@ -148,7 +148,7 @@ function initMap() {
   const PositionElements = document.querySelectorAll('#position');
   PositionElements.forEach(element => {
       new Typed(element, {
-          strings: ["Web Developer", "Backend Developer", "Designer"],
+          strings: ["Software Developer","Web Developer", "Backend Developer", "Designer"],
           typeSpeed: 50,
           backSpeed: 50,
           backDelay: 2000,
@@ -160,7 +160,7 @@ function initMap() {
 const DynamicElements = document.querySelectorAll("#dynamic-text");
 DynamicElements.forEach(element=>{
   new Typed(element, {
-    strings: ["Web Developer", "Backend Developer", "Designer"],
+    strings: ["Software Developer","Web Developer", "Backend Developer", "Designer"],
           typeSpeed: 50,
           backSpeed: 50,
           backDelay: 2000,
