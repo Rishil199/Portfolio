@@ -11367,10 +11367,11 @@ pre .code {
   -webkit-justify-content: space-between;
    -ms-flex-pack: justify;
   justify-content: space-between;
-  max-width: 200px;
+  max-width: 350px;
   margin-right:2px;
   margin-left: auto; 
   right: 0%;
+  
 }
 
 .social-icons .social-link {
@@ -11496,7 +11497,7 @@ pre .code {
   position: relative;
   height: 60vh;
   min-height: 650px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.10)), url(../imgs/IMG_2246.JPG);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.10)), url(../imgs/ilya-pavlov-OqtafYT5kTw-unsplash.jpg  );
   /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/rishil-bg.JPG); */
   background-size: cover;
   background-position: center;
@@ -11687,4 +11688,8 @@ pre .code {
 .social-img{
   height: auto;
   width: 105%;
+}
+
+.variable-font-size{
+  font-size: large;
 }
